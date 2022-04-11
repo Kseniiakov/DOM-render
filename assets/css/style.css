@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#users {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user {
+  width: 15%;
+}
+
+p {
+  margin: 0;
+  padding: 3px 0;
+}
+
+.image {
+  width: 100%;
+}
+
+h2 {
+  font-weight: 500;
+  margin: 0;
+  padding: 25px 0 10px 0;
+}
+
+.email {
+  color: rgb(238, 14, 14);
+  padding-bottom: 20px;
+}
+
+.birthday {
+  padding-bottom: 20px;
+}
+
+.location {
+  padding-bottom: 10px;
+}
+
+.description {
+  line-height: 1.6em;
+}
